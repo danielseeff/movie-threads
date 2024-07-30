@@ -144,4 +144,13 @@ const revenue = [
   { month: 'Dec', revenue: 4800 },
 ];
 
-export { users, customers, invoices, revenue };
+const comment = [
+  {
+    id: '410544b5-4001-4271-9855-fec4b6a6442a',
+    customer_id: customers[0].id,
+    comment_content: "I love this movie",
+    date: '2022-06-05',
+  },
+]
+
+export { users, customers, invoices, revenue, comment };
